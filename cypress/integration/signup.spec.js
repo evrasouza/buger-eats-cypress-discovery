@@ -42,7 +42,7 @@ describe('Signup', () => {
         signup.go()
         signup.fillForm(deliver)
         signup.submit()
-        signup.alertMessageShouldBe('Oops! CPF inválid')
+        signup.alertMessageShouldBe('banana')
 
     })
 
