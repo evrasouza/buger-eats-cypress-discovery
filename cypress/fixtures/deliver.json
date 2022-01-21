@@ -1,0 +1,53 @@
+{
+    "signup": {
+        "name": "Everton Souza",
+            "cpf": "03256687941",
+            "email": "es@es.com.br",
+            "whatsapp": "19986549738",
+            "address": {
+                "postalcode": "13040089",
+                "street": "Rua Manoel Sylvestre de Freitas Filho",
+                "number": "1277",
+                "details": "apto 207 bloco 1",
+                "district": "Jardim Nova Europa",
+                "city_state": "Campinas/SP"
+
+            },
+            "delivery_method": "Moto",
+            "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Pedro Joao",
+        "cpf": "032566879AA",
+        "email": "es@es.com.br",
+        "whatsapp": "19986549738",
+        "address": {
+            "postalcode": "13040089",
+            "street": "Rua Manoel Sylvestre de Freitas Filho",
+            "number": "1277",
+            "details": "apto 207 bloco 1",
+            "district": "Jardim Nova Europa",
+            "city_state": "Campinas/SP"
+
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Everton Souza",
+            "cpf": "03256687941",
+            "email": "eses.com.br",
+            "whatsapp": "19986549738",
+            "address": {
+                "postalcode": "13040089",
+                "street": "Rua Manoel Sylvestre de Freitas Filho",
+                "number": "1277",
+                "details": "apto 207 bloco 1",
+                "district": "Jardim Nova Europa",
+                "city_state": "Campinas/SP"
+
+            },
+            "delivery_method": "Moto",
+            "cnh": "cnh-digital.jpg"
+    }
+}
