@@ -1,22 +1,31 @@
-/// <reference types="cypress" />
-// ***********************************************************
-// This example plugins/index.js can be used to load plugins
-//
-// You can change the location of this file or turn off loading
-// the plugins file with the 'pluginsFile' configuration option.
-//
-// You can read more here:
-// https://on.cypress.io/plugins-guide
-// ***********************************************************
-
-// This function is called when a project is opened or re-opened (e.g. due to
-// the project's config changing)
-
 /**
  * @type {Cypress.PluginConfig}
  */
-// eslint-disable-next-line no-unused-vars
-module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
-}
+
+ const { generate } = require('gerador-validador-cpf')
+
+ module.exports = (on, config) => {
+   on('task', {
+     consumerFactory() {
+       const firstName = 'Everton'
+       const lastName = 'Souza'
+ 
+       return {
+         name: `${firstName} ${lastName}`,
+         cpf: generate(),
+         email: `${firstName.toLowerCase()}${lastName.toLowerCase()}@example.com`,
+         whatsapp: '19999999999',
+         address: {
+           postalcode: '13012000',
+           street: 'Avenida Francisco Glicério',
+           number: '1907',
+           details: 'Teste de software',
+           district: 'Centro',
+           city_state: 'Campinas/SP'
+         }
+       }
+     }
+   })
+ 
+   return config
+ }

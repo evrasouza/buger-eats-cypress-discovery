@@ -4,14 +4,13 @@
   "description": "Projeto de testes de aceitacao do app BugerEats",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "author": "Everton Souza",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "9.0.0",
-    "cypress-file-upload": "^5.0.8",
-    "faker": "^5.5.3",
+    "cypress": "9.7.0",
     "gerador-validador-cpf": "^5.0.2"
   }
 }
