@@ -31,6 +31,14 @@ yarn install
 npx cypress run
 ```
 
+## 🔖 Branchs
+
+```sh
+main com padrão Page Objects
+no-page-objects sem o padrão Page Objects
+```
+
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
