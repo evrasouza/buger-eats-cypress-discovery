@@ -2,7 +2,7 @@
 Instrutor Fernando Papito
 
 <h1 align="left">
-    <img src=".github/logo-stiker.svg" width="250px">
+    <img src="/logo-stiker.svg" width="250px">
 </h1>
 
 Cypress é um framework Node.js, confiável e fácil de usar para testar aplicações modernas que rodam no navegador. Neste curso, você primeiro aprenderá sobre o que é o Cypress, seus recursos, como ele é diferente dos demais. Além disso, vai conhecer o básico da sua linguagem que é o Javascript.
@@ -37,6 +37,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feito por EVerton Souza
+Feito por Everton Souza
+
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nayaraquino/)](https://github.com/evrasouza/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayaraquino//)](https://www.linkedin.com/in/everton-rafael-de-souza-evra/)
