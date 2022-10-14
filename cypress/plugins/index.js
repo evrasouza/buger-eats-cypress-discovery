@@ -6,7 +6,7 @@
 
  module.exports = (on, config) => {
    on('task', {
-     consumerFactory() {
+    deliverymanFactory() {
        const firstName = 'Everton'
        const lastName = 'Souza'
  
